@@ -1,4 +1,4 @@
-#$Revision: 1.4 $, $Date: 2003-08-11 22:46:32 $
+#$Revision: 1.5 $, $Date: 2003-09-09 10:24:21 $
 
 %define         _name	amaranth
 %define		_subver	.7
