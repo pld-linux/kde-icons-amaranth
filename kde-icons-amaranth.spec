@@ -1,4 +1,4 @@
-#$Revision: 1.5 $, $Date: 2003-09-09 10:24:21 $
+#$Revision: 1.6 $, $Date: 2003-12-28 02:26:00 $
 
 %define         _name	amaranth
 %define		_subver	.7
@@ -24,6 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description -l pl
 %{_name} to g³adki motyw ikon do KDE.
+
+%prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
