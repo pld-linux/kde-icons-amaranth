@@ -1,4 +1,4 @@
-#$Revision: 1.1 $, $Date: 2003-07-31 12:41:34 $
+#$Revision: 1.2 $, $Date: 2003-08-01 14:12:54 $
 
 %define         _name	amaranth
 %define		_subver	.7
@@ -18,15 +18,16 @@ BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define         _htmldir        %{_docdir}/kde/HTML
 
 %description
-%{_name} is a smooth iconset for KDE
+%{_name} is a smooth iconset for KDE.
 
 %description -l pl
-%{_name} to g³adki temat ikon do KDE
+%{_name} to g³adki motyw ikon do KDE.
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_iconsdir}
-%{__tar} xf  %{SOURCE0} -C $RPM_BUILD_ROOT%{_iconsdir}
+
+%{__tar} xf %{SOURCE0} -C $RPM_BUILD_ROOT%{_iconsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
