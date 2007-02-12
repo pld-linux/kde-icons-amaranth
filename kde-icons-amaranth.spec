@@ -1,9 +1,9 @@
-#$Revision: 1.8 $, $Date: 2004-05-13 20:31:33 $
+#$Revision: 1.9 $, $Date: 2007-02-12 00:48:58 $
 
 %define		_name	amaranth
 %define		_subver	.8
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	0%{_subver}
 Release:	2
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_name} is a smooth iconset for KDE.
 
-%description -l pl
-%{_name} to g≥adki motyw ikon do KDE.
+%description -l pl.UTF-8
+%{_name} to g≈Çadki motyw ikon do KDE.
 
 %prep
 
